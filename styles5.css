@@ -1,0 +1,197 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 19, 18);
+    background-color: #999;
+    background-attachment:scroll ;
+    background-image:url("https://avatars.mds.yandex.net/i?id=4348c2e6b3b8c9a3c2c3980c25b26feeff61b4ed-5220968-images-thumbs&n=13");
+
+}
+table {
+    width: 800px;
+}
+@media(max-width:900px){
+    table{
+        width: 300px;
+    }
+}
+th, td {
+    padding: 7px 10px 10px 10px;
+    box-sizing: border-box;
+}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 120%;
+    border-bottom: 2px solid #111111;
+    border-top:1px solid#999 ;
+    text-align: right;
+}
+tr.even {
+    background-color: #6b2828;
+}
+tr:hover{
+    background-color: #e6c3c3;
+    font-size: 2rem ; 
+    transition: all.2s;
+    /* box-sizing: content-box; */
+}
+.money {
+    text-align: right;
+    box-sizing: content-box;
+}
+td:hover {
+    color: red;
+    box-sizing:content-box;
+    font-size: 70%;
+    
+}
+.book:hover {
+    font-size: 120%;
+}
+td {
+    transition: all.2s;
+    /* box-sizing: content-box; */
+   
+}
+#mydiv {
+    position:absolute ;
+    right: 200px;top: 5px;
+    width: 200px;height: 200px;
+    background: rgb(22, 197, 92);
+   transition: transform 2s;
+    border-radius: 10%;
+    background:radial-gradient(farthest-corner at 40px 40px,#f9f6f6 0%,#98999b 50% ,rgb(76, 76, 213),rgb(215, 161, 161));
+
+}
+#mydiv:hover{
+    color: rgb(106, 22, 185);
+    font-size: 150%;
+
+    transform: skew(40deg ,20deg);  
+}
+.text:hover{
+    font-size: 150%;
+    transition: all.5s;
+}
+
+.text{
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.text1:hover{
+
+    font-size: 150%;
+    transition: all.5s;
+    color: #981d1d;
+    
+    
+
+
+}
+.text1{
+    margin-left: 300px;
+}
+
+
+
+.text3:hover{
+    font-size: 150%;
+    transition: all.5s;
+    color: #b62222;}
+
+    h2:has(~.toggler:checked){
+        color: #981818;
+        font-size: 70px;
+       border-style: dashed ;
+       background: #999;
+       letter-spacing: 1pc;
+       word-spacing: 1pc;
+        color: #a50f0f;
+        background-image:url("https://cameralabs.org/media/cameralabs/images/Tanya/July/20.07/03.jpg")
+       
+    }
+    .text4{
+        color: #a50f0f;
+        font-size: large;
+        font-weight: 900;
+    }
+    .toggler{
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+    }
+    .text1{
+        font-style:italic ;
+        font-weight: 900;
+    }
+    .text6:hover{
+     color: aqua;
+     transition: all.10s;        
+    }
+    .text6{
+        text-decoration: underline;
+    }
+     .image { 
+         border: 10px solid #981d1d;
+       
+         padding: 1px;
+         margin-left: 50px;
+    
+     }
+     .image:hover{
+         
+        width: 500px;
+        height: 400px;
+       border: 20px solid rgb(84, 74, 19);  
+       
+      border-radius: 
+      100pt 100pt 100pt 100pt;
+       
+     
+    }
+    .text7{
+        font-size: 50px;
+        text-align: center;
+        margin-left:  300px; ;
+    }
+    .text8:hover{
+     color: #a50f0f;   
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    .social__item{
+        display: inline;
+        margin-left: 10pc;
+        border: 10px solid rgb(153, 93, 51);
+    }
+    @media ( max-width: 900px){
+
+        .social__item {
+        display: block;
+        margin-left: 3pc;
+        border: 3px solid green;
+        margin: 10px;
+    }
+        
+    }
+
+    .text9 {
+        background-image: url("https://www.ridus.ru/images/2020/11/1/1169732/in_article_0cf7eb20ff.webp");
+        border: 5px solid red;
+        font-size: 250px;
+        border-radius: 100%;
+        font-weight: 50;
+    }
+    .text10 {
+        font-size: 2pc;
+
+    }
+    .text11 {
+        font-size: 2rem;
+        color: #206fb5;
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+    
+    
